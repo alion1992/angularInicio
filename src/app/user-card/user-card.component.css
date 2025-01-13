@@ -1,0 +1,33 @@
+.user-card {
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  
+    mat-card-avatar {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin: 0 auto 10px;
+    }
+  
+    mat-card-title {
+      font-size: 1.5rem;
+      margin-top: 10px;
+    }
+  
+    mat-card-subtitle {
+      font-size: 1rem;
+      color: #666;
+    }
+  
+    .action-button {
+      background-color: #007bff;
+      color: #fff;
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
