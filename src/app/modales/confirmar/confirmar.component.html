@@ -1,0 +1,13 @@
+<div class="dialog">
+    <h1>Tareas</h1>
+    <hr>
+    <p>
+    Vas a crear la siguente tarea:  {{data.nombre}}
+    <br>
+    ¿Desea continuar?
+    </p>
+    <div>
+        <button mat-button  (click)="iniciar()" color="warn">Confirmar</button>
+        <button mat-button (click)="cerrar()">Cancelar</button>
+    </div>
+</div>

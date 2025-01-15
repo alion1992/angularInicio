@@ -11,4 +11,6 @@ export class InputTextComponent {
   @Input() type: string = 'text';
   @Input() id: string = '';
   @Input() placeholder: string = '';
+  @Input() dd: string = '';
+  
 }

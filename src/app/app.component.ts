@@ -13,7 +13,9 @@ export class AppComponent {
   constructor(private router : Router){
   }
   login(){
-    this.router.navigate (['/inicioSesion'] ,{skipLocationChange: true})
+
+    //Que me puedo loguear
+    this.router.navigate (['/inicioSesion'] ,{skipLocationChange: false})
   }
 
 }
